@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MyNutrition</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="js/bmi.js"></script>
+    <div class="topnav">
+        <nav>
+            <h3>Healthcare</h3>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="imgs">
+        <img src="bmi.png">
+    </div>
+
+
+    <form class="box" action="details.php" method="post">
+        <h1>BMI Calculator</h1>
+        <input id="email" type="email" placeholder="Email" name="email">
+        <input id="weight" type="number" placeholder="  weight in kg" name="weight" min="0" max="1000">
+        <input id="height" type="number" placeholder="height in cm" name="height" min="0" max="300">
+        <button onclick="bmi()" type="submit">Calculate</button>
+        <p id="result">Your BMI is</p>
+    </form>
+
+    <div class="dci">
+        <p id="dcl">The Daily Calories Intake Is </p>
+        <p id="dclr"></p>
+    </div>
+
+
+</body>
+
+</html>

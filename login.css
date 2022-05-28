@@ -1,0 +1,51 @@
+body {
+    background-image: url('bg4.jpg');
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.form input[type="email"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    width: 125px;
+    padding: 10px;
+    outline: none;
+    color: #191919;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form input[type="email"]:focus {
+    width: 200px;
+}
+
+.form input[type="email"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #020202;
+    padding: 13px 27px;
+    outline: none;
+    color: #191919;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form button:hover {
+    background: #fefffe;
+    color: rgb(6, 6, 6);
+}
